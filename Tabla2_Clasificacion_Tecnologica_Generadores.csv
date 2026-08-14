@@ -1,0 +1,32 @@
+bus,nombre,tecnologia,pmax_MW,costo_USD_MWh,rampa_MW_h,nota,baja_confianza
+1,chilca,thermal,1105.0,50,552.5,,False
+2,talara,thermal,156.0,72,62.4,,False
+7,carhuaqu,hydro,143.0,18,,,False
+8,guadalup,wind,143.0,,,RECLASIFICADA thermal->wind (media confianza): S.E. Guadalupe evacua el Parque Eolico Cupisnique (83.15 MW hallado vs 143 MW asumido) -> revisar,True
+15,huall138,hydro,312.0,15,,,False
+16,huall220,hydro,130.0,15,,,False
+18,paramong,thermal,52.0,52,18.2,"CONFIRMADO cogen. biomasa/bagazo (C. Biomasa Paramonga, Grupo Gloria, 23 MW); cost=52 USD/MWh es precio PPA Subasta RER 2010, no costo variable puro -> usar con esa salvedad",False
+19,huacho,hydro,208.0,15,,"RECLASIFICADA thermal->hydro (media-alta confianza): S.E. Huacho recibe la C.H. Cheves (+posible Cahua), ~168-211 MW hallado vs 208 MW asumido; cost=15 es tipico hidro, NO confirmado por fuente -> revisar",True
+22,ventanil,thermal,585.0,48,292.5,,False
+26,callahua,hydro,273.0,15,,,False
+27,pachacha,hydro,247.0,15,,,False
+29,sanjuan,thermal,78.0,80,27.3,"sin certeza: hipotesis no confirmada de eolica San Juan de Marcona (nombre de S.E. real es ""Marcona"", no coincide) -> revisar antes de reclasificar",True
+31,huanza,hydro,117.0,16,,,False
+33,mantaro,hydro,1092.0,12,,,False
+35,independ,thermal,117.0,80,40.9,"identidad media-alta (CT Pisco/Independencia EGASA, gas, ~71 MW hallado vs 117 MW asumido); costo sin fuente -> revisar",True
+37,marco220,wind,41.6,,,,False
+39,santaros,thermal,546.0,64,273.0,,False
+40,chilc220,thermal,1066.0,50,533.0,,False
+41,chilc500,thermal,715.0,50,357.5,,False
+42,oroya,thermal,84.5,80,29.6,"AMBIGUO sin resolver: unica central hallada con este nombre es de 9 MW (vs 84.5 MW asumidos) -> posible error de clasificacion carga/generador en el CDF original, revisar antes de tocar",True
+43,carhuama,thermal,351.0,80,122.8,"sin certeza: no se hallo central real; S.E. Carhuamayo parece nudo de transito, no generador -> revisar contra Padron de Barras COES",True
+44,paragsha,hydro,585.0,15,,"RECLASIFICADA thermal->hydro (media confianza): S.E. Paragsha recibe la C.H. Chaglla (406-456 MW hallado vs 585 MW asumido); cost=15 es tipico hidro del propio diccionario, NO confirmado por fuente -> revisar",True
+47,aguaytia,thermal,208.0,42,83.2,,False
+53,tacna,solar,39.0,,,,False
+56,suriray,thermal,117.0,80,40.9,"sin certeza: no se hallo central real; S.E. Suriray parece nudo de interconexion minera (Cusco/Arequipa) -> posible error de clasificacion carga/generador, revisar",True
+57,machupic,hydro,240.5,20,,,False
+64,santuari,thermal,188.5,80,66.0,"sin certeza: no se hallo central real; S.E. Santuario parece nudo de subtransmision (Caylloma, Arequipa) -> revisar",True
+65,socab138,thermal,44.2,95,15.5,,False
+66,azangaro,hydro,143.0,22,,"sin certeza: direccion hidro plausible por corredor San Gaban-Azangaro, pero ese corredor es 220kV y esta barra es 138kV -> central especifica no confirmada, revisar",True
+70,parinas,thermal,39.0,85,13.6,"identidad confirmada (CT Refineria Talara/Petroperu, ~102 MW hallado vs 39 MW asumido); costo sin fuente -> revisar",True
+71,colcab2,hydro,715.0,12,,,False

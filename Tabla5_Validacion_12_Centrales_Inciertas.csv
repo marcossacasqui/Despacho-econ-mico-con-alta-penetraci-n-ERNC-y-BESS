@@ -1,0 +1,13 @@
+nombre_CDF,barra,kV,hipotesis_nombre_real,tecnologia_asumida_original,tecnologia_propuesta,pmax_asumido_MW,pmax_hallado_MW,costo_asumido_USD_MWh,costo_hallado_USD_MWh,confianza,fuente_principal
+carhuama,43,220,S.E. Carhuamayo (nudo de transito, no central),thermal,sin_identificar,351.0,,80,,no_encontrado,sectorelectricidad.com / OSINERGMIN compendio proyectos 05-2024
+paragsha,44,220,S.E. Paragsha <- C.H. Chaglla,thermal,hydro,585.0,406-456,80,,media,sectorelectricidad.com / Infobae / Global Energy Monitor
+parinas,70,220,CT Refineria Talara (Petroperu),thermal,thermal,39.0,102.34,85,,alta_identidad_baja_costo,La Republica / Petroperu / Global Energy Monitor
+santuari,64,138,S.E. Santuario (nudo de subtransmision),thermal,sin_identificar,188.5,,80,,no_encontrado,SEAL PAD Sistemas de Transmision y Generacion
+independ,35,220,CT Pisco / Independencia (EGASA),thermal,thermal,117.0,71.0,80,,media_alta,CINGETEC
+oroya,42,220,"C.H. La Oroya (9 MW) o carga industrial - AMBIGUO",thermal,ambiguo,84.5,9.0,80,,baja,Statkraft Peru / Gestion
+suriray,56,220,S.E. Suriray (nudo minero),thermal,sin_identificar,117.0,,80,,no_encontrado,OSINERGMIN fichas tecnicas lineas en ejecucion
+guadalup,8,220,S.E. Guadalupe <- Eolica Cupisnique,thermal,wind,143.0,83.15,80,,media,Wikipedia ES / Rumbo Minero
+huacho,19,220,S.E. Huacho <- C.H. Cheves (+Cahua),thermal,hydro,208.0,168-211,80,,media_alta,Gestion (Statkraft)
+paramong,18,220,C. Biomasa Paramonga (Grupo Gloria),thermal,thermal,52.0,23.0,60,52,alta_identidad_media_costo,PDFCoffee / Studocu (precio PPA Subasta RER 2010)
+sanjuan,29,220,"?Eolica San Juan de Marcona? (no confirmado)",thermal,wind_hipotesis,78.0,131.1-135.7,80,,baja_media,Acciona / Infobae
+azangaro,66,138,Corredor San Gaban-Azangaro 220kV (no coincide nivel de tension),hydro,hydro_mantenida,143.0,,22,,baja,COES Resumen Ejecutivo San Gaban III / Gestion
